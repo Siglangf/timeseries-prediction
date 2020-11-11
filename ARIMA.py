@@ -131,6 +131,7 @@ def main():
 
     data = data.join(forecast_df)
     data = data.dropna()
+    data['residual'] = data['grid-loss']-data['ARIMA']
     data.to_pickle('forecast.pkl')
 
 
