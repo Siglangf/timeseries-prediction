@@ -29,7 +29,7 @@ def plotFeature(fd, wf, fu):
 def get_timeseries(name_of_data, n_rows_read, wanted_feature, grid_number):
     data = pd.read_csv(f'./DATASET/data/{name_of_data}.csv',
                        index_col=0, nrows=n_rows_read)
-    data = cleanData(data)
+    #data = cleanData(data)
     feature_data = getFeature(data, grid_number, wanted_feature)
 
     return feature_data
