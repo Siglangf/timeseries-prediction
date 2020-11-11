@@ -96,7 +96,7 @@ def preprosses_data():
 
 def main():
     ######### Hyperparameters ####################
-    order = (1, 0, 0)
+    order = (9, 1, 7)
     ######### DATA EXTRACTION ####################
     data = preprosses_data()
 
@@ -131,7 +131,7 @@ def main():
 
     data = data.join(forecast_df)
     data = data.dropna()
-    data['residual'] = data['grid-loss']-data['ARIMA']
+    data['residuals'] = data['grid-loss']-data['ARIMA']
     data.to_pickle('forecast.pkl')
 
 
