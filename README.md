@@ -19,4 +19,4 @@ The overall structure of this repository is a bit messy. But once you get a hang
 
 There are three main structures: ARIMA, ANN, and the Hybrid. 
 
-The Hybrid consists of both ARIMA and ANN. The usage of ARIMA here is the same as when the ARIMA is running by itself. The ANN however used in the Hybrid is of substantial difference from the ANN doing prediction by itself. To make this difference easily visible, the ANN files that is a part of the prediction by itself has a name starting with ANN_alone, while the ones being a part of the Hybrid has names starting with ANN_in_hybrid.
+The *Hybrid* consists of both *ARIMA* and *ANN*. The usage of ARIMA here is the same as when the ARIMA is running by itself. The ANN however used in the Hybrid is of substantial difference from the ANN doing prediction by itself. To make this difference easily visible, the ANN files that is a part of the prediction by itself has a name starting with **ANN_alone**, while the ones being a part of the Hybrid has names starting with **ANN_in_hybrid**.
