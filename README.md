@@ -4,6 +4,9 @@ In this project an extension of Zhang's hybrid forecasting model is implemented.
 
 It is done as a project in Machine Learning course (TDT4173) the fall of 2020 at NTNU (Norwegian University of Science and Technology).
 
+![Test Image 1](Cumulative error.png)
+![Test Image 2](One_day_plot.png)
+
 ## Dependencies
 * Python 3.8
 * Pandas
@@ -48,8 +51,7 @@ To run the predications made by the hybrid model, one firstly needs to make sure
 
 
 
-To run the KPI analysis file, follow this guidline:
-
 ### KPI analysis
+To run the KPI analysis file, follow this guidline:
 
 To be able to extract the results from the implemented models the script *Evaluation.ipynb* needs to be run. Here the different tables of different KPIs are created, and other plots that describe the relationship of the models results. 
