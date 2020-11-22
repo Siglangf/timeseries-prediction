@@ -96,7 +96,7 @@ def preprosses_data():
 
 def main():
     ######### Hyperparameters ####################
-    order = (9, 1, 7)
+    order = (9, 0, 6)
     ######### DATA EXTRACTION ####################
     data = preprosses_data()
 
