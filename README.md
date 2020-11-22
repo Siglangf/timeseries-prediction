@@ -4,8 +4,11 @@ In this project an extension of Zhang's hybrid forecasting model is implemented.
 
 It is done as a project in Machine Learning course (TDT4173) the fall of 2020 at NTNU (Norwegian University of Science and Technology).
 
-![Test Image 1](Cumulative_error.png)
-![Test Image 2](One_day_plot.png)
+
+:-------------------------:|:-------------------------:
+![](Cumulative_error.png)  |  ![](One_day_plot.png)
+:-------------------------:|:-------------------------:
+
 
 ## Dependencies
 * Python 3.8
