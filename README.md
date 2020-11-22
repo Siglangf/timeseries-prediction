@@ -34,19 +34,22 @@ To be able to run the environment in the way intended, firstly you need to clone
 
 If you encounter any problems with the pickle files, a recommended way is to run the code where they are generated locally, as a regular problem is version handling of these files.
 
+### Models
 To run either ARIMA, ANN or the Hybrid, make sure to follow the guidelines described below:
 
-### ARIMA
+#### ARIMA
+To run the predictions made by the ARIMA model, one needs to run the ARIMA.py file. This creates a pickle file *ARIMA_forecast.pkl* which contains the values of the predicted by ARIMA.
 
+#### ANN
+To run the predictions made by the ANN, firstly open the file ANN_alone.ipynb. This creates a pickle file *ANN_alone_forecast.pkl* which contains the values predicted by ANN.
 
-### ANN
-
-
-### Hybrid
-
+#### Hybrid
+To run the predications made by the hybrid model, one firstly needs to make sure that the *ARIMA_forecast.pkl* file is available in the same folder as the file *ANN_in_hybrid.ipynb*. *ANN_in_hybrid.ipynb* is the script doing the forecasting of the hybrid model. This script creates a pickle file *ANN_in_hybrid.pkl* which contains the values predicted by the hybrid model.
 
 
 
 To run the KPI analysis file, follow this guidline:
 
 ### KPI analysis
+
+To be able to extract the results from the implemented models the script *Evaluation.ipynb* needs to be run. Here the different tables of different KPIs are created, and other plots that describe the relationship of the models results. 
